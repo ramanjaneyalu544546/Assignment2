@@ -1,0 +1,39 @@
+table,
+thead,
+tbody,
+td,
+th,
+tr{
+  border: 1px solid black;
+  padding: 5px;
+  margin: 4px;
+  border-collapse: collapse;
+  text-align: center;
+  width: 30%;
+}
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+thead{
+  background-color:darkgoldenrod;
+}
+.head1{
+  background-color: lightblue;
+}
+.home{
+  background-color: lightblue;
+  padding: 50px;
+}
+td{
+  padding: 10px;
+}
